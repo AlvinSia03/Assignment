@@ -7,6 +7,11 @@
     <title></title>
     <asp:ContentPlaceHolder ID="head" runat="server">
     </asp:ContentPlaceHolder>
+    <style type="text/css">
+        .auto-style1 {
+            height: 23px;
+        }
+    </style>
 </head>
 <body>
     <form id="form1" runat="server">
@@ -14,7 +19,7 @@
            
             <table style="width: 100%; background-color: white;">
                 <tr>
-                    <td colspan="2" style="text-align:center;">Food Ordering System</td>
+                    <td colspan="2" style="text-align:center;" class="auto-style1">Food Ordering System</td>
                     
                 </tr>
                 <tr>
